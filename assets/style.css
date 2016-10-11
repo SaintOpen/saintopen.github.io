@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  background-color: #ecf0f1;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  color: #333;
+}
+
+.description {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.info,
+.sample {
+  float: left;
+}
+
+.info {
+  padding-left: 30px;
+}
+
+.library {
+  display: table;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.paper {
+  display: table-cell;
+  position: relative;
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.paper img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.phone {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.sample {
+  border: 1px solid #000;
+  height: 200px;
+  width: 200px;
+}
+
+.sample img {
+  width: 100%;
+}
+
+#viewport {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 60%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
