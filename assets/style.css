@@ -68,6 +68,11 @@ ul {
   top: 0;
 }
 
+.person {
+  padding-bottom: 10px;
+  font-family: 120px;
+}
+
 .phone {
   font-size: 30px;
   font-weight: 700;
